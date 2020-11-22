@@ -32,6 +32,8 @@ const double P[A][C] = {
     {50, 47, 88, 86, 152, 114, 34, 70, 102}
 };
 
+/* ------------- DO NOT EDIT CODE BELOW -------------*/
+
 // Give a test function, f, execute the test and print the result
 void test(int (*f)(), char* name) {
     if(f()) printf("Exercise %s failed\n", name);
