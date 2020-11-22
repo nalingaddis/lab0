@@ -8,7 +8,7 @@ To start a debugging session run
 where `filename` is the name of your compiled executable file, for this assignment it is `tests`. Note that your executable must be compiled with the `-g` flag, but the `Makefile` has already done this for `tests`. Syntax for commands inside the bugger is as follows `n[ame]` which means the command can be executed by typing either `n` or `name`. Common commands to know are:
 
 * `r[un] {args}` runs the executable with the given `{args}`
-    * Note: If the code encounters a runtime error (i.e. `segfault`), it will stop executing as if it had reached a breakpoint. From here you can print variables and traverse the stack frames to pin down the cause of your error.
+  * Note: If the code encounters a runtime error (i.e. `segfault`), it will stop executing as if it had reached a breakpoint. From here you can print variables and traverse the stack frames to pin down the cause of your error.
 * `b[reak] <file.c>:line` sets a breakpoint in the source code file `file.c` on line `line`
 * `p[rint] <expression>` prints the evaluated expression, this can be used to print array values or dereferenced pointers
 * `n[ext] <n>` if the code has reached a breakpoint, this command will step over `n` lines of code
